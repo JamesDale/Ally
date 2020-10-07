@@ -7,11 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ChatViewController: UIViewController {
+    
+    private let tableViewController = ALChatTableViewController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        addChild(tableViewController)
     }
 
 
