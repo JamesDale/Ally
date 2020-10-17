@@ -31,13 +31,16 @@ final class ALChatBubbleTableViewCell: UITableViewCell {
         }
     }
     
-    let messageLabel: UILabel = {
-        let label = UILabel()
+    let messageLabel: UITextView = {
+        let label = UITextView()
         label.text = "The quick brown fox jumped over the lazy dog la la la la la la la la la la"
-        label.numberOfLines = 0
         label.backgroundColor = UIColor(named: "Secondary")
         label.layer.cornerRadius = 8
         label.layer.masksToBounds = true
+        label.isScrollEnabled = false
+        label.textColor = .white
+        label.textContainerInset = .init(top: 2, left: 8, bottom: 2, right: 8)
+        label.font = UIFont.systemFont(ofSize: 14, weight: .regular)
         return label
     }()
     

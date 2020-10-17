@@ -17,5 +17,4 @@ struct Message {
     let content: String
     let date: Date
     let sender: Sender
-
 }

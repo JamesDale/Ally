@@ -9,20 +9,26 @@
 /* Begin PBXBuildFile section */
 		1AFDFA70252B7DA700A30BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFA6F252B7DA700A30BFC /* AppDelegate.swift */; };
 		1AFDFA72252B7DA700A30BFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFA71252B7DA700A30BFC /* SceneDelegate.swift */; };
-		1AFDFA74252B7DA700A30BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFA73252B7DA700A30BFC /* ViewController.swift */; };
+		1AFDFA74252B7DA700A30BFC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFA73252B7DA700A30BFC /* ChatViewController.swift */; };
 		1AFDFA77252B7DA700A30BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFDFA75252B7DA700A30BFC /* Main.storyboard */; };
 		1AFDFA79252B7DA700A30BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFDFA78252B7DA700A30BFC /* Assets.xcassets */; };
 		1AFDFA7C252B7DA700A30BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFDFA7A252B7DA700A30BFC /* LaunchScreen.storyboard */; };
 		1AFDFA87252B94FF00A30BFC /* AllyChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFA86252B94FF00A30BFC /* AllyChatTableViewController.swift */; };
 		1AFDFA9C252DCEF800A30BFC /* AllyChatBubbleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFA9B252DCEF800A30BFC /* AllyChatBubbleTableViewCell.swift */; };
 		1AFDFAA0252DD71F00A30BFC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFA9F252DD71F00A30BFC /* Message.swift */; };
+		1AFDFAA8252DDF4100A30BFC /* ChatInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFAA7252DDF4100A30BFC /* ChatInputTableViewCell.swift */; };
+		1AFDFAAC252DDF4A00A30BFC /* ChatInputTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFAAB252DDF4A00A30BFC /* ChatInputTableViewController.swift */; };
+		1AFDFAB0252ECE0000A30BFC /* BotFlowNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFAAF252ECE0000A30BFC /* BotFlowNode.swift */; };
+		1AFDFD2025365CF700A30BFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFD1F25365CF700A30BFC /* Constants.swift */; };
+		1AFDFD232536696A00A30BFC /* nurse.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1AFDFD222536696A00A30BFC /* nurse.mov */; };
+		1AFDFD282536698300A30BFC /* VideoCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFD272536698300A30BFC /* VideoCallViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AFDFA6C252B7DA700A30BFC /* Ally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFDFA6F252B7DA700A30BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AFDFA71252B7DA700A30BFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1AFDFA73252B7DA700A30BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AFDFA73252B7DA700A30BFC /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		1AFDFA76252B7DA700A30BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AFDFA78252B7DA700A30BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AFDFA7B252B7DA700A30BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +36,12 @@
 		1AFDFA86252B94FF00A30BFC /* AllyChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllyChatTableViewController.swift; sourceTree = "<group>"; };
 		1AFDFA9B252DCEF800A30BFC /* AllyChatBubbleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllyChatBubbleTableViewCell.swift; sourceTree = "<group>"; };
 		1AFDFA9F252DD71F00A30BFC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		1AFDFAA7252DDF4100A30BFC /* ChatInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputTableViewCell.swift; sourceTree = "<group>"; };
+		1AFDFAAB252DDF4A00A30BFC /* ChatInputTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputTableViewController.swift; sourceTree = "<group>"; };
+		1AFDFAAF252ECE0000A30BFC /* BotFlowNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotFlowNode.swift; sourceTree = "<group>"; };
+		1AFDFD1F25365CF700A30BFC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1AFDFD222536696A00A30BFC /* nurse.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = nurse.mov; sourceTree = "<group>"; };
+		1AFDFD272536698300A30BFC /* VideoCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +74,12 @@
 		1AFDFA6E252B7DA700A30BFC /* Ally */ = {
 			isa = PBXGroup;
 			children = (
+				1AFDFD262536697700A30BFC /* Video Call */,
+				1AFDFD222536696A00A30BFC /* nurse.mov */,
 				1AFDFA9E252DD71600A30BFC /* Model */,
 				1AFDFA85252B94F400A30BFC /* Chat */,
 				1AFDFA6F252B7DA700A30BFC /* AppDelegate.swift */,
 				1AFDFA71252B7DA700A30BFC /* SceneDelegate.swift */,
-				1AFDFA73252B7DA700A30BFC /* ViewController.swift */,
 				1AFDFA75252B7DA700A30BFC /* Main.storyboard */,
 				1AFDFA78252B7DA700A30BFC /* Assets.xcassets */,
 				1AFDFA7A252B7DA700A30BFC /* LaunchScreen.storyboard */,
@@ -78,8 +91,11 @@
 		1AFDFA85252B94F400A30BFC /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				1AFDFAA6252DDF3300A30BFC /* Chat Input */,
+				1AFDFA73252B7DA700A30BFC /* ChatViewController.swift */,
 				1AFDFA86252B94FF00A30BFC /* AllyChatTableViewController.swift */,
 				1AFDFA9B252DCEF800A30BFC /* AllyChatBubbleTableViewCell.swift */,
+				1AFDFD1F25365CF700A30BFC /* Constants.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -88,8 +104,26 @@
 			isa = PBXGroup;
 			children = (
 				1AFDFA9F252DD71F00A30BFC /* Message.swift */,
+				1AFDFAAF252ECE0000A30BFC /* BotFlowNode.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		1AFDFAA6252DDF3300A30BFC /* Chat Input */ = {
+			isa = PBXGroup;
+			children = (
+				1AFDFAA7252DDF4100A30BFC /* ChatInputTableViewCell.swift */,
+				1AFDFAAB252DDF4A00A30BFC /* ChatInputTableViewController.swift */,
+			);
+			path = "Chat Input";
+			sourceTree = "<group>";
+		};
+		1AFDFD262536697700A30BFC /* Video Call */ = {
+			isa = PBXGroup;
+			children = (
+				1AFDFD272536698300A30BFC /* VideoCallViewController.swift */,
+			);
+			path = "Video Call";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +185,7 @@
 			files = (
 				1AFDFA7C252B7DA700A30BFC /* LaunchScreen.storyboard in Resources */,
 				1AFDFA79252B7DA700A30BFC /* Assets.xcassets in Resources */,
+				1AFDFD232536696A00A30BFC /* nurse.mov in Resources */,
 				1AFDFA77252B7DA700A30BFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,11 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFDFA74252B7DA700A30BFC /* ViewController.swift in Sources */,
+				1AFDFA74252B7DA700A30BFC /* ChatViewController.swift in Sources */,
+				1AFDFAB0252ECE0000A30BFC /* BotFlowNode.swift in Sources */,
+				1AFDFAAC252DDF4A00A30BFC /* ChatInputTableViewController.swift in Sources */,
 				1AFDFA70252B7DA700A30BFC /* AppDelegate.swift in Sources */,
+				1AFDFAA8252DDF4100A30BFC /* ChatInputTableViewCell.swift in Sources */,
+				1AFDFD2025365CF700A30BFC /* Constants.swift in Sources */,
 				1AFDFA72252B7DA700A30BFC /* SceneDelegate.swift in Sources */,
 				1AFDFAA0252DD71F00A30BFC /* Message.swift in Sources */,
 				1AFDFA87252B94FF00A30BFC /* AllyChatTableViewController.swift in Sources */,
+				1AFDFD282536698300A30BFC /* VideoCallViewController.swift in Sources */,
 				1AFDFA9C252DCEF800A30BFC /* AllyChatBubbleTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
